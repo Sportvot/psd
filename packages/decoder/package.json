@@ -1,5 +1,5 @@
 {
-  "name": "@webtoon/psd-decoder",
+  "name": "@sportvot/psd-decoder",
   "private": true,
   "type": "module",
   "main": "./dist/index.js",
@@ -30,5 +30,8 @@
         "dist"
       ]
     }
+  },
+  "publishConfig": {
+    "@sportvot:registry": "https://npm.pkg.github.com"
   }
 }
