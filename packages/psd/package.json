@@ -63,5 +63,8 @@
         "vite.config.ts"
       ]
     }
+  },
+  "publishConfig": {
+    "@sportvot:registry": "https://npm.pkg.github.com"
   }
 }
