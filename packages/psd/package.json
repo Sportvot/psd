@@ -30,10 +30,7 @@
     "vite": "^4.3.9",
     "vitest": "^0.32.2",
     "wireit": "^0.9.5"
-  },
-  "publishConfig": {
-    "access": "public"
-  },
+  }, 
   "wireit": {
     "build": {
       "command": "vite build",

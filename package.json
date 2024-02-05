@@ -4,7 +4,7 @@
     "packages/*/"
   ],
   "scripts": {
-    "build": "npm -w @webtoon/psd run build",
+    "build": "npm -w @sportvot/psd run build",
     "clear": "rimraf --glob 'packages/*/dist/' dist-web/",
     "deploy": "npm -w @webtoon/psd-example-browser -w @webtoon/psd-benchmark run build && gh-pages -d dist-web/",
     "fix": "eslint --fix . && prettier --write .",
