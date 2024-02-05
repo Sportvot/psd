@@ -1,5 +1,5 @@
 {
-  "name": "@webtoon/psd",
+  "name": "@sportvot/psd",
   "version": "0.4.0",
   "description": "lightweight psd file parser with no dependency written in typescript",
   "homepage": "https://webtoon.github.io/psd",
