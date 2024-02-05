@@ -1,5 +1,9 @@
 name: "Publish demo & benchmark pages to GitHub Pages"
 
+permissions:
+  packages: write
+  contents: read
+
 on:
   push:
     branches: [main]
