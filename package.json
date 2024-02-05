@@ -10,7 +10,7 @@
     "fix": "eslint --fix . && prettier --write .",
     "lint": "eslint . && prettier --check .",
     "prepare": "husky install",
-    "release": "npm -w @webtoon/psd run release",
+    "release": "npm -w @sportvot/psd run release",
     "start:benchmark": "npm -w @webtoon/psd-benchmark start --watch",
     "start:browser": "npm -w @webtoon/psd-example-browser start --watch",
     "start:node": "npm -w @webtoon/psd-example-node start --watch",
