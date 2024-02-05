@@ -14,7 +14,7 @@
     "start:benchmark": "npm -w @webtoon/psd-benchmark start --watch",
     "start:browser": "npm -w @webtoon/psd-example-browser start --watch",
     "start:node": "npm -w @webtoon/psd-example-node start --watch",
-    "test": "npm --workspaces --if-present test",
+    "test": "npm --workspaces --if-present test"
   },
   "browserslist": [
     "chrome >= 57",
