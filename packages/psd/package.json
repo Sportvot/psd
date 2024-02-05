@@ -1,6 +1,6 @@
 {
   "name": "@sportvot/psd",
-  "version": "0.4.0",
+  "version": "0.6.0",
   "description": "lightweight psd file parser with no dependency written in typescript",
   "homepage": "https://webtoon.github.io/psd",
   "license": "MIT",
@@ -18,7 +18,8 @@
   "scripts": {
     "build": "wireit",
     "prepublishOnly": "npm run build",
-    "release": "release-it",
+    "release": "standard-version && git push --follow-tags",
+    "publish-package": "npm run build && npm publish",
     "test": "wireit"
   },
   "devDependencies": {
@@ -29,8 +30,9 @@
     "typescript": "^5.1.3",
     "vite": "^4.3.9",
     "vitest": "^0.32.2",
-    "wireit": "^0.9.5"
-  }, 
+    "wireit": "^0.9.5",
+    "standard-version": "^9.5.0"
+  },
   "wireit": {
     "build": {
       "command": "vite build",
